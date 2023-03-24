@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <h1 ><a href="#" class="effect-underline">Thanks A Lot To:</a></h1>
+        <h1 ><a href="#" class="effect-underline">Jaja</a></h1>
+        <h1 ><a href="#" class="effect-underline">Shawn</a></h1>
+        <h1 ><a href="#" class="effect-underline">Rheyzo</a></h1>
+        <h1 ><a href="#" class="effect-underline">Aureus</a></h1>
+        <h1 ><a href="#" class="effect-underline">Dale</a></h1>
+        <h1 ><a href="#" class="effect-underline">Ziayh</a></h1>
+        <h1 ><a href="#" class="effect-underline">Rowdah</a></h1>
+        <h1 ><a href="#" class="effect-underline">Jiro</a></h1>
+        <h1 ><a href="#" class="effect-underline">Janross</a></h1>
+        <h1 ><a href="#" class="effect-underline">Hannah</a></h1>
+        <h1 ><a href="#" class="effect-underline">Mr.Rabino</a></h1>
+        <br>
+        <h1 ><a href="#" class="effect-underline">And Most of All, Ms.Aliya, My Mentor</a></h1>
+        </div>
+        <div class="loader"></div>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+        body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #7775 url('https://i.pinimg.com/originals/23/d7/4e/23d74e06260d45a85d81e9a877a0c0f2.jpg') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+.wrapper {
+  display: block;
+  position: absolute;
+ text-indent: 20px;
+}
+h1 a {
+   color: black;
+  font-size: 2em;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+
+}
+a.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+    border-radius: 5px;
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+    </style>
+   
+</body>
+</html>
